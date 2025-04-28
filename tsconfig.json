@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES6", // Génère du JavaScript ES6 qui supporte `let` et `const`
+		"module": "commonjs", // Choisis le système de module que tu veux (ici CommonJS)
+		"strict": true, // Active toutes les vérifications strictes
+		"esModuleInterop": true, // Assure la compatibilité avec les modules ES
+		"outDir": "./dist", // Dossier de sortie pour les fichiers compilés
+		"rootDir": "./js", // Racine des fichiers TypeScript (adapté à ta structure)
+		"skipLibCheck": true, // Option pour éviter les vérifications des fichiers de définition de type
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": [
+		"js/**/*.ts" // Inclut tous les fichiers .ts dans le dossier `js`
+	]
+}
