@@ -77,3 +77,14 @@ const fill2dArray = (array: number[][]) => {
 		}
 	}
 };
+
+// exercice 4
+// Faire un programme qui construit un tableau avec un nombre infini de dimension en mettant dans chaque case le produit de tous les indices de la case
+
+const fillInfiniteArray = (array: number[]) => {
+	// trouver comment additionner tous les indices d'un array
+	let testArray: number[] = array
+		.map((_, index: number) => index)
+		.filter((index) => index !== 0)
+		.reduce((acc: number, valeur: number) => acc * valeur, 1);
+};

@@ -10,6 +10,8 @@
 		"forceConsistentCasingInFileNames": true
 	},
 	"include": [
-		"js/**/*.ts" // Inclut tous les fichiers .ts dans le dossier `js`
+		"js/**/*.ts", // Inclut tous les fichiers .ts dans le dossier `js`
+		"ts/boucles_infinies.ts",
+		"ts/sudoku.ts"
 	]
 }
